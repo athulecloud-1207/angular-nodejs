@@ -7,7 +7,7 @@ build:
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: nodeangular-22.11
+    image_template: node-22.11
 deploy:
     context: athulecloud-1207/DEV
     replicas: 1
